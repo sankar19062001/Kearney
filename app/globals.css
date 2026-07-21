@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { background:#0b1020; color:#e5e7eb; }
+.card { background:#111827; border:1px solid #1f2937; border-radius:12px; padding:16px; }
+.tab-btn { padding:8px 14px; border-radius:8px; font-size:14px; font-weight:600; cursor:pointer; }
+.tab-btn-active { background:#2563eb; color:white; }
+.tab-btn-inactive { background:#1f2937; color:#9ca3af; }
+table.dtbl { width:100%; border-collapse: collapse; font-size:13px; }
+table.dtbl th { text-align:left; padding:6px 8px; color:#93c5fd; border-bottom:1px solid #1f2937; position:sticky; top:0; background:#111827; }
+table.dtbl td { padding:5px 8px; border-bottom:1px solid #1a2333; }
+table.dtbl tr:hover td { background:#0f172a; }
+.badge { padding:2px 8px; border-radius:999px; font-size:11px; font-weight:700; }
